@@ -10,13 +10,13 @@ for key, value in tasks.items():
     print(f"{key}: {value}")
 print("***************")
 
-print("Choose task list !!!")
 # print(" 1. Add Task \n 2. Show Task \n 3. Mark Task as Done \n 4. Exit")
 
 # print(op)
 i=0
 while (i>=0):
     i=i+1
+    print("Choose task list !!!")
     op = input(" 1. Add Task \n 2. Show Task \n 3. Mark Task as Done \n 4. Exit \n")
     match op:
         case '1':
